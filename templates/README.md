@@ -6,6 +6,8 @@ This folder contains HTML templates used for generating email notifications in t
 
 - `SISIFO_PLANTILLA_SOLICITUD.html`: This template is used for sending notifications about new requests related to audit documents. It includes placeholders for dynamic content such as the audit name, document name, request type, and validity period.
 
+  ![SISIFO_PLANTILLA_SOLICITUD.html Preview](./previews/SISIFO_PLANTILLA_SOLICITUD.png)
+
   **Placeholders:**
 
   - `{{titulo_solicitud}}`: The title of the request. Usually indicates the type of request (e.g., review, approval) and the name of the audit project.
@@ -17,8 +19,11 @@ This folder contains HTML templates used for generating email notifications in t
   - `{{fecha_envio}}`: The date the request was sent.
 
 - `SISIFO_PLANTILLA_RECHAZO.html`: This template is used for sending notifications about document rejections in the SÍSIFO system. It includes placeholders for dynamic content such as the rejection title, document name, validity period, and reason for rejection.
+
+  ![SISIFO_PLANTILLA_RECHAZO.html Preview](./previews/SISIFO_PLANTILLA_RECHAZO.png)
+
   **Placeholders:**
-  
+
   - `{{titulo_rechazo}}`: The title of the rejection. Usually indicates the rejected document and the name of the audit project.
   - `{{nombre_documento}}`: The name of the document that has been rejected.
   - `{{vigencia}}`: The validity year for the document.
