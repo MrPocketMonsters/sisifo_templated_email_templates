@@ -1,6 +1,6 @@
 # sisifo_templated_email_templates
 
-Version control for template development for templated emails in auditing procedures
+Version control for template development for templated emails in auditing procedures for the SÍSIFO system.
 
 ## Especificaciones Técnicas
 
